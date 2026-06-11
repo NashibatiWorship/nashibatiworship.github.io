@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Song Title - Nashibati Worship</title>
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.video {
+  margin: 30px 0;
+}
+
+.video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 12px;
+}
+
+.translations {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.column {
+  background: rgba(255,255,255,0.08);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.column h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .translations {
+    grid-template-columns: 1fr;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Song Title</h1>
+
+<div class="video">
+<iframe
+src="https://www.youtube.com/embed/VIDEO_ID"
+allowfullscreen>
+</iframe>
+</div>
+
+<div class="translations">
+
+<div class="column">
+<h3>Original Lyrics</h3>
+<p>Write the original lyrics here.</p>
+</div>
+
+<div class="column">
+<h3>English</h3>
+<p>Write English translation here.</p>
+</div>
+
+<div class="column">
+<h3>Français</h3>
+<p>Écrivez la traduction française ici.</p>
+</div>
+
+<div class="column">
+<h3>Español</h3>
+<p>Escriba aquí la traducción al español.</p>
+</div>
+
+<div class="column">
+<h3>Português</h3>
+<p>Escreva aqui a tradução em português.</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
